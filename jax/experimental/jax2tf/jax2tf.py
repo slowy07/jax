@@ -1012,6 +1012,7 @@ tf_not_yet_impl = [
     "rng_bit_generator",
     "xla_pmap",
     "tridiagonal_solve",
+    "reduce_scatter",
 ]
 
 tf_impl[ad_util.stop_gradient_p] = tf.stop_gradient
